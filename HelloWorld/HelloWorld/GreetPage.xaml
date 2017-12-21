@@ -2,10 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.GreetPage">
-    <Button
+
+    <Label
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        Text="Hello World">
+    </Label>
+    
+    <!--<Button
         HorizontalOptions="Center"
         VerticalOptions="Center"
         Text="Click Me"
         Clicked="Handle_Clicked">
-    </Button>
+    </Button>-->
 </ContentPage>

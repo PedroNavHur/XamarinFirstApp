@@ -18,10 +18,10 @@ namespace HelloWorld
 			InitializeComponent ();
 		}
 
-        void Handle_Clicked(object sender, System.EventArgs e)
-        {
-            DisplayAlert("Title", "Hello World", "OK");
-        }
+        //void Handle_Clicked(object sender, System.EventArgs e)
+        //{
+        //    DisplayAlert("Title", "Hello World", "OK");
+        //}
 
 
 	}
