@@ -19,11 +19,13 @@ namespace HelloWorld
             slider.Value = 0.5;
 		}
 
-        void Handle_ValueChanged(object sender, Xamarin.Forms.ValueChangedEventArgs e)
-        {
-            label.Text = String.Format("Value is {0:F2}", e.NewValue);
-        }
-
+        /* Slider Handler */
+        //void Handle_ValueChanged(object sender, Xamarin.Forms.ValueChangedEventArgs e)
+        //{
+        //    label.Text = String.Format("Value is {0:F2}", e.NewValue);
+        //}
+        
+        /* Button Handler */
         //void Handle_Clicked(object sender, System.EventArgs e)
         //{
         //    DisplayAlert("Title", "Hello World", "OK");
