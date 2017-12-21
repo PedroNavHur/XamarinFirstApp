@@ -18,12 +18,13 @@ namespace HelloWorld
             InitializeComponent();
             slider.Value = 0.5;
 
-            if (Device.RuntimePlatform == Device.iOS)
-                Padding = new Thickness(0, 20, 0, 0);
-            else if (Device.RuntimePlatform == Device.Android)
-                Padding = new Thickness(0, 0, 0, 0);
-            else if  (Device.RuntimePlatform == Device.UWP)
-                Padding = new Thickness(0, 0, 0, 0);
+            /* Special action dependent on platform */
+            //if (Device.RuntimePlatform == Device.iOS)
+            //    Padding = new Thickness(0, 20, 0, 0);
+            //else if (Device.RuntimePlatform == Device.Android)
+            //    Padding = new Thickness(0, 0, 0, 0);
+            //else if  (Device.RuntimePlatform == Device.UWP)
+            //    Padding = new Thickness(0, 0, 0, 0);
 
         }
 
