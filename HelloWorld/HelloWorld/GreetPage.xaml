@@ -7,14 +7,11 @@
         VerticalOptions="Center">
         
         <Label
+            BindingContext="{x:Reference slider}"
             x:Name="label"
-            Text="{Binding
-                Source={x:Reference slider},
-                Path=Value,
+            Text="{Binding Value,
                 StringFormat='Value is {0:F2}'}"
-            Opacity="{Binding
-                Source={x:Reference slider},
-                Path=Value}">
+            Opacity="{Binding Value}">
         </Label>
 
         <Slider
