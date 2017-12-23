@@ -4,8 +4,8 @@
              x:Class="HelloWorld.GridPage">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
-            <On Platform="iOS">16,28,16,8</On>
-            <On Platform="Android">16,8,16,8</On>
+            <On Platform="iOS">16,36,16,16</On>
+            <On Platform="Android">16</On>
         </OnPlatform>
     </ContentPage.Padding>
 
@@ -14,7 +14,26 @@
         RowSpacing="20"
         ColumnSpacing="20">
         
-        <Label Text="Welcome to Xamarin.Forms!"/>
+        <Label 
+            Grid.Row="0"
+            Grid.Column="0"
+            Text="Label A"
+            BackgroundColor="#FF5722"/>
+        <Label 
+            Grid.Row="1"
+            Grid.Column="0"
+            Text="Label B"
+            BackgroundColor="#FF5722"/>
+        <Label 
+            Grid.Row="0"
+            Grid.Column="1"
+            Text="Label C"
+            BackgroundColor="#FF5722"/>
+        <Label 
+            Grid.Row="1"
+            Grid.Column="1"
+            Text="Label D"
+            BackgroundColor="#FF5722"/>
     </Grid>
 
 </ContentPage>
