@@ -34,6 +34,16 @@
             Grid.Column="1"
             Text="Label D"
             BackgroundColor="#FF5722"/>
+        <Label 
+            Grid.RowSpan="3"
+            Grid.Column="2"
+            Text="RowSpan"
+            BackgroundColor="#795548"/>
+        <Label 
+            Grid.Row="2"
+            Grid.ColumnSpan="3"
+            Text="ColumnSpan"
+            BackgroundColor="#9E9E9E"/>
     </Grid>
 
 </ContentPage>
