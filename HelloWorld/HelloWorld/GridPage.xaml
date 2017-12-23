@@ -13,7 +13,17 @@
         BackgroundColor="#FF9800"
         RowSpacing="20"
         ColumnSpacing="20">
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
         <Label 
             Grid.Row="0"
             Grid.Column="0"
